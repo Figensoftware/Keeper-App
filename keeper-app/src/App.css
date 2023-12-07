@@ -9,6 +9,7 @@ html {
    body {
     font-family: monospace;
     font-size: 14px;
+    background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
    }
 header {
   padding: 20px;
@@ -20,7 +21,7 @@ header h1 {
 
 form.create-area {
   position: relative;
-  background-color: #FFF0B1;
+  background-color: #fff;
   width: 480px;
   margin: 30px auto 20px auto;
   padding: 15px;
@@ -29,7 +30,7 @@ form.create-area {
 }
 form.create-area input, textarea {
   width: 100%;
-  background-color: #FFF0B1;
+  /* background-color: #FFF0B1; */
   border: 0;
   font-size: 1.2em;
   padding: 4px;
@@ -63,10 +64,10 @@ footer {
   width: 100%;
   height: 2.5rem;
   color: #000000;
+  font-size: 16px;
 }
 
 .note {
-  background-color: #FFF0B1;
   border-radius: 7px;
   box-shadow: 0 2px 5px #ccc;
   padding: 10px;
@@ -85,7 +86,7 @@ footer {
   word-wrap: break-word;
 }
 .note button {
-  background-color: #FFF0B1;
+  background-color: #fff;
   position: relative;
   float: right;
   margin-right: 10px;
