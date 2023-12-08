@@ -73,8 +73,10 @@ footer {
   padding: 10px;
   width: 240px;
   margin: 20px;
+  margin-left: 50px;
   float: left;
 }
+
 .note h1 {
   font-size: 1.2em;
   margin-bottom: 6px;
