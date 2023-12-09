@@ -8,7 +8,6 @@ props.onDelete(props.id);
 }
 
   return (
-    <div className="cont">
     <div className='note'>
       <h1>{props.title}</h1>
       <p>{props.content}</p>
@@ -16,8 +15,8 @@ props.onDelete(props.id);
         <DeleteIcon/>
          </button>
     </div>
-    </div>
-  )
+   
+  );
 }
 
 export default Note;
